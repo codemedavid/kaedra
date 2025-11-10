@@ -112,8 +112,6 @@ Shipping Fee: To be discussed
 ${paymentMethod?.name || 'N/A'}
 ${paymentMethod ? `Account: ${paymentMethod.account_number}` : ''}
 
-${notes ? `📝 NOTES\n${notes}\n` : ''}
-⚠️ RESEARCH USE ONLY
 
 Please confirm this order. Thank you!
     `.trim();
